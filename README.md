@@ -1,8 +1,11 @@
 <div align="center">
-  <img src="" width="900"/>
-  <img src="" width="900"/>
-  
-  <a href="">Demo</a>
+  <img src="https://github.com/stnmilena/websiteUnderConstruction/blob/master/assets/website-under-construction-screenshot.png?raw=true" width="900"/>
+  <img src="https://github.com/stnmilena/websiteUnderConstruction/blob/master/assets/modal-screenshot.png?raw=true" width="900"/>
+  <img src="https://github.com/stnmilena/websiteUnderConstruction/blob/master/assets/mobile-website-screenshot.png?raw=true" width="268"/>
+  <img src="https://github.com/stnmilena/websiteUnderConstruction/blob/master/assets/mobile-menu-screenshot.png?raw=true" width="268"/>
+  <img src="https://github.com/stnmilena/websiteUnderConstruction/blob/master/assets/mobile-modal-screenshot.png?raw=true" width="268"/>
+
+  <a href="https://website-under-construction.vercel.app/">Demo</a>
   
   <h2>🚧 Website Under Construction</h2>
 </div>
