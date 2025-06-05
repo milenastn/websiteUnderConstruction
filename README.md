@@ -1,9 +1,14 @@
 <div align="center">
   <img src="https://github.com/stnmilena/websiteUnderConstruction/blob/master/assets/website-under-construction-screenshot.png?raw=true" width="900"/>
   <img src="https://github.com/stnmilena/websiteUnderConstruction/blob/master/assets/modal-screenshot.png?raw=true" width="900"/>
-  <img src="https://github.com/stnmilena/websiteUnderConstruction/blob/master/assets/mobile-website-screenshot.png?raw=true" width="268"/>
-  <img src="https://github.com/stnmilena/websiteUnderConstruction/blob/master/assets/mobile-menu-screenshot.png?raw=true" width="268"/>
-  <img src="https://github.com/stnmilena/websiteUnderConstruction/blob/master/assets/mobile-modal-screenshot.png?raw=true" width="268"/>
+
+  <table>
+  <tr>
+    <td><img src="https://github.com/stnmilena/websiteUnderConstruction/blob/master/assets/mobile-website-screenshot.png?raw=true" width="268"/></td>
+    <td><img src="https://github.com/stnmilena/websiteUnderConstruction/blob/master/assets/mobile-menu-screenshot.png?raw=true" width="268"/></td>
+    <td><img src="https://github.com/stnmilena/websiteUnderConstruction/blob/master/assets/mobile-modal-screenshot.png?raw=true" width="268"/></td>
+  </tr>
+</table>
 
   <a href="https://website-under-construction.vercel.app/">Demo</a>
   
