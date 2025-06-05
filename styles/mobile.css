@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-color: #3F0866;
+    color: #FFF;
+    overflow-x: hidden;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 8rem;
+    padding: 1.6rem;
+    font-size: 1.6rem;
+}
+
+header p {
+    border-bottom: 2px solid #EE4DC6;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+header div#menu-btn {
+    position: relative;
+    z-index: 2;
+    font-size: 2.2rem;
+    color: #FFF;
+    cursor: pointer;
+}
+
+nav.menu-closed {
+    display: none;
+}
+
+nav.menu-show {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+nav.menu-show ul {
+    text-align: center;
+}
+
+nav.menu-show ul li {
+    margin-top: 5rem;
+    list-style: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1.6rem;
+}
+
+section.text-side,
+section.image-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+section.image-side img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+section.text-side h1:first-child {
+    font-size: 3.2rem;
+}
+
+section.text-side h1 {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+
+section.text-side p {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+}
+
+section.text-side button {
+    all: unset;
+    width: 10rem;
+    height: 3.4rem;
+    margin-top: 2rem;
+    border: 2px solid #EE4DC6;
+    border-radius: 0.4rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFF;
+    cursor: pointer;
+}
+
+section.text-side button:hover {
+    border: 2px solid #FFF;
+    background-color: #FFF;
+    color: #EE4DC6;
+    transition: all 0.3s ease;
+}
+
+form div.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+form div.modal-hidden {
+    display: none;
+}
+
+form div.modal-container {
+    position: relative;
+    max-width: 40rem;
+    width: 90%;
+    padding: 2rem;
+    border-radius: 0.4rem;
+    background-color: #FFF;
+    color: #000;
+}
+
+form div.modal-container i {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+form div.modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form div.modal-content input#email {
+    height: 4rem;
+    padding-inline: 0.6rem;
+}
+
+form div.modal-content div.checkbox-input {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+form div.modal-content .checkbox-input label {
+    font-size: 1.2rem;
+}
+
+form div.modal-content button {
+    background-color: #EE4DC6;
+}
+
+form div.modal-content button:hover {
+    border: 2px solid #EE4DC6;
+}
+
+section.text-side .icons {
+    display: flex;
+    gap: 2.4rem;
+    margin-top: 5rem;
+}
+
+section.text-side .icons a {
+    font-size: 1.6rem;
+    color: #FFF;
+}
