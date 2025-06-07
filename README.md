@@ -10,7 +10,7 @@
   </tr>
 </table>
 
-  <a href="https://stnmilena.github.io/websiteUnderConstruction/">Demo</a>
+  <a href="https://milenastn.github.io/websiteUnderConstruction/">Demo</a>
   
   <h2>🚧 Website Under Construction</h2>
 </div>
