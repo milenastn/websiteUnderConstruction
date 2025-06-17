@@ -10,7 +10,7 @@
   </tr>
 </table>
 
-  <a href="https://website-under-construction.vercel.app/">Demo</a>
+  <a href="https://sntmilena.github.io/websiteUnderConstruction/">Demo</a>
   
   <h2>🚧 Website Under Construction</h2>
 </div>
