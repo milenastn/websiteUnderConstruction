@@ -18,11 +18,11 @@
         font-size: 1.4rem;
     }
 
-    header div#menu-btn {
+    header div.menu-btn {
         display: none;
     }
 
-    nav#nav-menu {
+    nav.nav-menu {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -30,13 +30,13 @@
         height: auto;
     }
 
-    nav#nav-menu ul {
+    nav.nav-menu ul {
         display: flex;
         gap: 4rem;
         list-style: none;
     }
 
-    nav#nav-menu ul li {
+    nav.nav-menu ul li {
         text-transform: uppercase;
         cursor: pointer;
     }

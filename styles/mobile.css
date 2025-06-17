@@ -41,7 +41,7 @@ header p {
     letter-spacing: 0.1rem;
 }
 
-header div#menu-btn {
+header div.menu-btn {
     position: relative;
     z-index: 2;
     font-size: 2.2rem;
@@ -114,7 +114,7 @@ section.text-side p {
     font-size: 1.4rem;
 }
 
-section.text-side button {
+section.text-side div button {
     all: unset;
     width: 10rem;
     height: 3.4rem;
@@ -129,7 +129,7 @@ section.text-side button {
     cursor: pointer;
 }
 
-section.text-side button:hover {
+section.text-side div button.open-modal:hover {
     border: 2px solid #FFF;
     background-color: #FFF;
     color: #EE4DC6;

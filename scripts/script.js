@@ -1,5 +1,5 @@
-const menuBtn = document.getElementById('menu-btn');
-const navMenu = document.getElementById('nav-menu');
+const menuBtn = document.querySelector('.menu-btn');
+const navMenu = document.querySelector('.nav-menu');
 const icon = menuBtn.querySelector('i');
 
 menuBtn.addEventListener('click', () => {
@@ -16,8 +16,8 @@ menuBtn.addEventListener('click', () => {
     }
 });
 
-const openModal = document.getElementById('open-modal');
-const modal = document.getElementById('modal');
+const openModal = document.querySelector('.open-modal');
+const modal = document.querySelector('.modal');
 const closeModal = modal.querySelector('i');
 
 openModal.addEventListener('click', () => {
